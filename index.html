@@ -10,6 +10,7 @@
 
 	<div class="top">
 		<ul class="clearfix">
+            <li><a href="#contact">Contact</a></li>
             <li><a href="lecture.html">Lecture</a></li>
             <li><a href="#infoperso">A Propos</a></li> 
 			<li><a href="index.html">Home</a></li>  
@@ -29,8 +30,8 @@
             <p>
                 Bonjour,</br>
         J’ai 23 ans et je suis actuellement en 3ième année d’école d’ingénieur à l’UTBM ( Université Technologique de Belfort-Montbéliard).
-        Je suis en ce moment à la recherche d’un stage en tant qu’assistant ingénieur, afin de vous présenter mes compétences j’ai choisi d’utiliser un site personnel où vous pourrez retrouvez mes réalisations ainsi que mes connaissances dans les diverses domaines lié à la programmation.
-       
+         <br/>Je suis en ce moment à la recherche d’un stage en tant qu’assistant ingénieur, afin de vous présenter mes compétences j’ai choisi d’utiliser un site personnel où vous pourrez retrouvez mes réalisations ainsi que mes connaissances dans les diverses domaines lié à la programmation.
+      
             </p>     
 		</div>
         
@@ -46,7 +47,7 @@
                 	<li>
                     	HTML+CSS
                         <ul>
-                        	<li><a href="download/siteV1.0.zip"> code source de ce site</a><br />( V1.0 HTML+CSS  )</li>
+                        	<li><a href="https://github.com/Nechadil/siteweb_perso.git"> code source de ce site（Github）</a><br />( V1.0 HTML+CSS  )</li>
                         </ul>
                     </li>
                     <li>
@@ -81,18 +82,40 @@
                 <li>2012-2014-INSA Rouen-Départment STPI(Sciences et Technologies Pour l'Ingénieur)</li>
             </ul>
         </div>
-       
-        
-        
-        
-        
-        
-        
-        
-        
-        
-	</div>     
-   
+      
+     
+         <div class="block">
+            <div class="title1" id="contact">Contact</div>       
+			<form action="php/contacter.php" method="post">           
+            <div class="block1"> 
+                <table cellspacing="10">
+                    <tr>
+                        <td>Votre nom</td>
+                        <td><input type="text" name="nom" /></td>
+                    </tr>  
+                    <tr>
+                        <td>Votre email</td>
+                        <td><input type="text" name="email" /></td>
+                    </tr> 
+                    <tr>
+                        <td>Sujet</td> 
+                        <td><input type="text" name="nom" /></td>
+                    </tr> 
+                    <tr>
+                    	<td  colspan="2" align="center" ><input type="submit" value="Submit" style="font-size:100%;"/></td>
+                    </tr>  
+                </table>   
+            </div>
+            
+            <div class="block1">
+            	<table>
+                	<tr><td>Votre message</td></tr>
+                    <tr><td><textarea name="message" rows="6" style="width:180%;font-size:115%" ></textarea></td></tr>
+                </table>
+            </div>
+           	</form>
+        </div>
+   	</div>
 	<div class="bottom">
     	<p>@2016|Nechadil</p>
 	</div>
